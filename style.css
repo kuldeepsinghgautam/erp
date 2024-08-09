@@ -1,0 +1,281 @@
+body {
+    padding-top: 20px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+main {
+    margin-left: 250px; /* Width of the sidebar */
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        width: 100%;
+    }
+    main {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+*html{padding: 0%;
+    margin: opx;}
+    
+    
+    .cl,.cl th, .cl tr,.cl td {
+      border: 1px solid rgb(17, 17, 17);
+      padding: 5px; 
+    }
+    
+    
+    form {
+      display: flex;
+      flex-wrap: wrap;
+    
+    }
+    
+    
+    
+            /* ---------------------------------------- */
+    
+    
+    .department-btn{
+      width: 10%;
+    }
+    
+    
+    
+    /* ------------------------- */
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      background-color: #f1f1f1;
+      padding: 20px;
+      font-family: Arial;
+    }
+    
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    h1 {
+      font-size: 50px;
+      word-break: break-all;
+    }
+    
+    .row {
+      margin: 10px -16px;
+    }
+    
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      display: none; /* Hide all elements by default */
+    }
+    
+    /* Clear floats after rows */ 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Content */
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+    
+    /* The "show" class is added to the filtered elements */
+    .show {
+      display: block;
+    }
+    
+    /* Style the buttons */
+    .btn {
+      border: none;
+      outline: none;
+      padding: 12px 16px;
+      background-color: white;
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: #ddd;
+    }
+    
+    .btn.active {
+      background-color: #666;
+      color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<!-- --------------MAIN SECTION-------------- -->
+<!-- Create Array for Payment Status -->
+ <div class="w3-card-4 w3-red" style="width: 100%; padding: 30px;" >
+  <!-- --------------FIRST SECTION OF PAYMENT-------------- -->
+<div class="w3-half w3-white "> 
+<form action="">
+<label for="">Payment Status :</label>
+<select>
+<option>Registration Penidng</option>
+<option>Admission Process Started</option>
+<option>Admission Amount Penidng</option>
+<option>Visa Process Started</option>
+<option>Visa Amount Penidng</option>
+<option>Completed</option>
+<option>Refund</option>
+</select>
+
+<br>
+<br>
+<!-- date should be disabled for tomorow onward -->
+<label for="">Payment Date :</label>
+<input type="date">
+
+<br>
+<br>
+<label for="">Payment Amount:</label>
+<input type="number">
+
+
+
+<br>
+<br>
+<label for="">Upload Payment Proof:</label>
+<input type="file">
+
+
+<br>
+<br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+</div>
+
+
+
+<!-- --------------SECOND SECTION OF PAYMENT-------------- -->
+
+<div class="w3-half" style="background-color: lightgray; padding: 20px;" >
+<label for="">Payment Status :</label> Completed
+<br>
+<label for="">Payment Date :</label> Completed
+<br>
+<label for="">Payment Amount :</label> Completed
+<br>
+<label for="">Payment Proof :</label> view
+<br>
+<label for="">Entry Added By</label>
+</div>
+
+<!------------------------------ -->
+</div>
+<!-- --------------MAIN SECTION-------------- --> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.w3-hide{display:none!important}
+
+.w3-show-block,.w3-show{display:block!important}
+
+.w3-show-inline-block{display:inline-block!important}
+
+@media (max-width:1205px){.w3-auto{max-width:95%}}
+
+@media (max-width:600px){.w3-modal-content{margin:0 10px;width:auto!important}.w3-modal{padding-top:30px}
+
+.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}	
+
+.kuldeep-h-s{display:none!important}
+.w3-mobile{display:block;width:100%!important}
+.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
+
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{width:100%}}
+
+@media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}}
+
+@media (min-width:993px) {
+
+    .w3-modal-content{width:900px}
+    .w3-hide-large {
+        display:none!important}
+    .w3-sidebar .w3-collapse{
+        display:block!important}}
+
+@media (max-width:992px) and (min-width:601px)
+{
+    .w3-hide-medium{display:none!important}
+}
+
+
+
+
+
+
